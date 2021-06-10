@@ -1,7 +1,7 @@
 body {
   background-color: hsl(0, 0%, 95%);
   font-size: 15px;
-  /*font-family: ; */
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 #sedans {
@@ -18,7 +18,6 @@ body {
 
 /* each block's title */
 .title {
-    text-transform: capitalize;
     font-family: 'Big Shoulders Display', cursive;
 }
 
@@ -26,6 +25,7 @@ body {
 button {
     background-color: transparent;
     cursor: pointer;
+    border-radius: 1em;
 }
 
 #attribution {
