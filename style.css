@@ -4,8 +4,14 @@ body {
   font-family: 'Lexend Deca', sans-serif;
 }
 
+.container {
+    /* vertical-align: middle; */
+}
+
 #sedans {
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: .5em;
+  border-bottom-left-radius: .5em;
 }
 
 #suvs {
@@ -14,6 +20,8 @@ body {
 
 #luxury {
   background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: .5em;
+  border-bottom-right-radius: .5em;
 }
 
 /* each block's title */
@@ -29,4 +37,5 @@ button {
 }
 
 #attribution {
+    display: none;
 }
