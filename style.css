@@ -61,11 +61,45 @@ button {
     cursor: pointer;
     border: solid 2px hsl(0, 0%, 95%);
     border-radius: 1.6em;
-    background-color: hsl(0, 0%, 95%);
     padding: 0.75em;
     margin-top: 2em;
+    width: 10em;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#sedanbutton {
+    color:hsl(31, 77%, 52%);
+}
+
+#suvbutton {
+    color:hsl(184, 100%, 22%);
+}
+
+#luxbutton {
+    color:hsl(179, 100%, 13%);
 }
 
 #attribution {
     display: none;
+}
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 375px){
+  .container {
+    margin-top: 3em;
+    width: 90%;
+  }
+  #luxury {
+    margin-bottom: 5em;
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: .5em;
+  }
+  #sedans {
+    border-top-right-radius: .5em;
+    border-bottom-left-radius: 0em;
+  }
 }
