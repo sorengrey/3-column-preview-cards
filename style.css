@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 60%;
+  margin: auto;
 }
 
 /* centers the three cards on the page */
@@ -116,7 +117,6 @@ button {
     width: 90%;
   }
   #luxury {
-    margin-bottom: 5em;
     border-top-right-radius: 0em;
     border-bottom-left-radius: 0.5em;
   }
@@ -126,13 +126,22 @@ button {
   }
 }
 
- /* @media only screen
-and (min-width:481px)
-and (max-width: 1440px) {
-  .container {
+ @media only screen
+and (min-width:800px)
+and (max-width: 1440px)
+and (-webkit-min-device-pixel-ratio: 2){
+  #container {
+    flex-direction: row;
     margin-top: 3em;
+    width: 60%;
+  }
+  #sedans {
+    width: 30%;
+  }
+  #suvs {
+    width: 30%;
   }
   #luxury {
-    margin-bottom: 5em;
+    width: 30%;
   }
-}  */
+} 
