@@ -139,36 +139,40 @@ and (max-width: 768px){
   #container {
     flex-direction: column;
     margin-top: 2em;
-    width: 65%;
+    width: 70%;
     margin: auto;
   }
-  /* #sedans {
-    width: 30%;
-  }
+   #sedans {
+    margin-top: 2em;
+    border-top-right-radius: 0.5em;
+    border-bottom-left-radius: 0em;
+  } /*
   #suvs {
     width: 30%;
-  }
-  #luxury {
-    width: 30%;
   } */
+  #luxury {
+    border-top-right-radius: 0em;
+    border-bottom-left-radius: 0.5em;
+    margin-bottom: 2em;
+  } 
 } 
 
 /* Desktop */
  @media only screen
-and (min-width:800px)
+and (min-width:769px)
 and (max-width: 1440px){
   #container {
     flex-direction: row;
-    margin-top: 3em;
-    width: 65%;
+    margin: auto;
+    width: 70%;
   }
   #sedans {
-    width: 30%;
+    width: 33%;
   }
   #suvs {
-    width: 30%;
+    width: 33%;
   }
   #luxury {
-    width: 30%;
+    width: 33%;
   }
 } 
