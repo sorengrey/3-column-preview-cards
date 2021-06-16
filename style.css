@@ -9,6 +9,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
+  margin: 0;
 }
 
 #container {
@@ -108,19 +109,23 @@ button {
 }
 
 @media only screen
- and (min-device-width: 320px)
- and (max-device-width: 480px){
+ and (min-width: 320px)
+ and (max-width: 480px){
   #container {
     margin-top: 3em;
     flex-direction: column;
     align-items: center;
-    width: 90%;
+    margin: auto;
+    margin-bottom: 2em;
+    /* width: 90%; */
   }
   #luxury {
     border-top-right-radius: 0em;
     border-bottom-left-radius: 0.5em;
+    /* width: 90%; */
   }
   #sedans {
+    margin-top: 2em;
     border-top-right-radius: 0.5em;
     border-bottom-left-radius: 0em;
   }
