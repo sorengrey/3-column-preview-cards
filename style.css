@@ -76,6 +76,7 @@ button {
   margin-top: 2em;
   width: 10em;
   background-color: hsl(0, 0%, 95%);
+  margin-bottom: 2em;
 }
 
 #sedanbutton {
@@ -146,10 +147,7 @@ and (max-width: 768px){
     margin-top: 2em;
     border-top-right-radius: 0.5em;
     border-bottom-left-radius: 0em;
-  } /*
-  #suvs {
-    width: 30%;
-  } */
+  } 
   #luxury {
     border-top-right-radius: 0em;
     border-bottom-left-radius: 0.5em;
@@ -164,15 +162,18 @@ and (max-width: 1440px){
   #container {
     flex-direction: row;
     margin: auto;
-    width: 70%;
+    width: 72%;
   }
   #sedans {
-    width: 33%;
+    width: 25%;
   }
   #suvs {
-    width: 33%;
+    width: 25%;
   }
   #luxury {
-    width: 33%;
+    width: 25%;
+  }
+  .title {
+    padding-bottom: .1em;
   }
 } 
