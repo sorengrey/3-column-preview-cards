@@ -61,4 +61,4 @@ I may tweak the margins and padding here and there in the future, just to try to
 ## Author
 
 - Website - [Heather Smith](https://sorengrey.github.io/portfolio-updated/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sorengrey)
+- Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/sorengrey)
