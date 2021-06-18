@@ -162,18 +162,25 @@ and (max-width: 1440px){
   #container {
     flex-direction: row;
     margin: auto;
-    width: 72%;
+    width: 71%;
   }
   #sedans {
-    width: 25%;
+    /* width: 25%; */
   }
   #suvs {
-    width: 25%;
+    /* width: 25%; */
   }
   #luxury {
-    width: 25%;
+    /* width: 25%; */
+  }
+  button {
+    margin-bottom: .2em;
   }
   .title {
     padding-bottom: .1em;
+  }
+  p {
+    margin-right: 2.7em;
+    margin-bottom: 3em;
   }
 } 
