@@ -62,3 +62,4 @@ I may tweak the margins and padding here and there in the future, just to try to
 
 - Website - [Heather Smith](https://sorengrey.github.io/portfolio-updated/)
 - Frontend Mentor - [@sorengrey](https://www.frontendmentor.io/profile/sorengrey)
+- LinkedIn - [Heather Smith](https://www.linkedin.com/in/heathersmith17/)
